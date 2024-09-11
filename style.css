@@ -1,0 +1,77 @@
+.topnav{
+  background-color: #000000;
+  overflow: hidden;
+}
+.topnav a{
+  float: left;
+  padding: 10px 10px;
+  color: gold;
+  background-color: #000000;
+}
+.topnav a:hover{
+  background-color: gold;
+  color:#000000; 
+}
+.topnav a.active{
+  background-color: black;
+  color: gold;
+}
+body{
+  text-align: center;
+  font-family: fantasy;
+  background-color: #87ceeb;
+}
+h1{
+  color: white;
+  font-family: content;
+}
+p{
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+}
+table,th,td{
+  border: solid; 
+  background-color: darkblue;
+  color: white;
+}
+footer{
+  color: rgb(243, 239, 6);
+  background-color: gray;
+  font-size: 20px;
+}
+h1{
+  background-color: darkblue;
+  animation-duration: 2s;
+  animation-name: sledien;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes sledien{
+  from{
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+to 
+{ translate: 0 0;
+  scale: 100% 1;
+} 
+
+}
+h4{
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+}
+div{
+  background-color: skyblue;
+}
+table{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+h2{
+  background-color: #808080;
+  font-family: 'Times New Roman', Times, serif;
+}
+h3{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
